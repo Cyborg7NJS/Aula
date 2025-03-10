@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 15px;
+    display: grid;
+    grid-template-rows: 250px 150px 150px 250px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+    "topo topo"
+    "ilha tec"
+    "cid comb"
+    "rodape rodape";
+}
+header {
+    background-color: #07b94b;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    grid-area: topo;
+}
+.ilha{
+    margin-bottom: 16px;
+    
+        h1 {
+            margin-bottom: 0;
+        }
+        h2 {
+            color: #07b94b;
+        }
+        .subtitle {
+            font-style: italic;
+        }
+        section {
+            margin-bottom: 32px;
+        }
+    grid-area: ilha;
+}
+
+.tecnologia{
+    margin-bottom: 16px;
+    
+        h1 {
+            margin-bottom: 0;
+        }
+        h2 {
+            color: #07b94b;
+        }
+        .subtitle {
+            font-style: italic;
+        }
+        section {
+            margin-bottom: 32px;
+        }
+    grid-area: tec;
+}
+
+.cidade{
+    margin-bottom: 16px;
+    
+        h1 {
+            margin-bottom: 0;
+        }
+        h2 {
+            color: #07b94b;
+        }
+        .subtitle {
+            font-style: italic;
+        }
+        section {
+            margin-bottom: 32px;
+        }
+    grid-area: cid;
+}
+.combate{
+    margin-bottom: 16px;
+    
+        h1 {
+            margin-bottom: 0;
+        }
+        h2 {
+            color: #07b94b;
+        }
+        .subtitle {
+            font-style: italic;
+        }
+        section {
+            margin-bottom: 32px;
+        }
+    grid-area: comb;
+}
+
+.img {
+    background-color: #ddd;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+ 
+.rodape{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 16px;
+    margin-top: 32px;
+    grid-area: rodape;
+}   
